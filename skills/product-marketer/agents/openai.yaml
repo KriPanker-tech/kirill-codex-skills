@@ -1,0 +1,6 @@
+interface:
+  display_name: "Продуктовый маркетолог"
+  short_description: "Сегменты, JTBD, позиционирование, GTM и экономика"
+  default_prompt: "Use $product-marketer as the main product marketing and GTM strategist for this task."
+policy:
+  allow_implicit_invocation: true

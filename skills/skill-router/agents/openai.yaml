@@ -1,0 +1,4 @@
+interface:
+  display_name: "Борис Борисыч"
+  short_description: "Автоматически выбирает нужного специалиста"
+  default_prompt: "Use $skill-router as Борис Борисыч to choose the right specialist for my task."

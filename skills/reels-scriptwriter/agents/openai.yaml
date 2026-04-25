@@ -1,0 +1,6 @@
+interface:
+  display_name: "Соня, сценарист Reels"
+  short_description: "Идеи, хуки и сценарии коротких видео"
+  default_prompt: "Use $reels-scriptwriter to turn this idea into a Reels script."
+policy:
+  allow_implicit_invocation: true

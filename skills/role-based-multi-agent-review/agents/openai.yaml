@@ -1,0 +1,6 @@
+interface:
+  display_name: "Роман, маркетинг-ревью"
+  short_description: "Проверяет материалы с разных ролей"
+  default_prompt: "Use $role-based-multi-agent-review to review and improve this artifact."
+policy:
+  allow_implicit_invocation: true
