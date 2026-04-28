@@ -4,7 +4,7 @@ Use this workflow to create a board-level strategy for a commercialization cente
 
 ## Roles
 
-- Boris Borisyich: workflow orchestrator
+- Semyon: workflow orchestrator
 - Egor: portfolio registry
 - Roman: review gates
 - Marina: strategic gap diagnostics

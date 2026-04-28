@@ -52,7 +52,7 @@ The commercialization strategy system is a workflow, not a plugin in v1.
 
 It uses named specialist roles:
 
-- Boris Borisyich: workflow orchestrator
+- Semyon: workflow orchestrator
 - Egor: portfolio registry
 - Marina: strategic gap diagnostics
 - Anton: strategic directions

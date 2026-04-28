@@ -1,6 +1,6 @@
 # Routing Matrix
 
-## Boris, Commercialization Strategy Orchestrator
+## Semyon, Commercialization Strategy Orchestrator
 
 Use `commercialization-strategy-orchestrator` for:
 

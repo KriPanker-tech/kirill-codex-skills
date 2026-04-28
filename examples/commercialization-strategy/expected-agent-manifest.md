@@ -15,7 +15,7 @@ Updated:
 
 | Stage | Agent | Role | Execution Mode | Status | Output | Review Decision | Next |
 |---|---|---|---|---|---|---|---|
-| 01 | Boris | Orchestrator |  |  | `working-dossier.md` intake | n/a | Egor |
+| 01 | Semyon | Orchestrator |  |  | `working-dossier.md` intake | n/a | Egor |
 | 02 | Egor | Portfolio Registry Lead |  |  | `03. Portfolio Registry` |  | Roman |
 | 03 | Roman | Portfolio Reviewer |  |  | `04. Portfolio Review` | approved | Marina |
 | 04 | Marina | Strategic Gap Analyst |  |  | `05. Strategic Gap Diagnostics` |  | Roman |

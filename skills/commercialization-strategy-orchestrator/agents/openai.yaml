@@ -1,6 +1,6 @@
 interface:
-  display_name: "Борис Борисыч"
+  display_name: "Семен"
   short_description: "Ведет стратегию коммерциализации по end-to-end workflow"
-  default_prompt: "Use $commercialization-strategy-orchestrator as Boris Borisyich to run the commercialization strategy workflow."
+  default_prompt: "Use $commercialization-strategy-orchestrator as Semyon to run the commercialization strategy workflow."
 policy:
   allow_implicit_invocation: true

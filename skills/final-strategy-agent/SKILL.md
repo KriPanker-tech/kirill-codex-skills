@@ -61,7 +61,7 @@ Read only the relevant dossier sections:
 
 ## Output
 
-Write the `11. Final Strategy Draft` section or produce `final-strategy.md` when requested by Boris after final review.
+Write the `11. Final Strategy Draft` section or produce `final-strategy.md` when requested by Semyon after final review.
 
 Structure the strategy:
 
