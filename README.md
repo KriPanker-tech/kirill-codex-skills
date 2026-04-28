@@ -33,6 +33,19 @@ references/
 docs/
 ```
 
+## Architecture
+
+- `skills/` contains executable Codex skills and role behavior.
+- `workflows/` contains process definitions, stage order, run structure, templates, and gates.
+- `references/` contains evidence rules, review criteria, output standards, and reusable knowledge rules.
+- `.runs/` is the local execution layer for concrete workflow runs and should not be committed when it contains private or source material.
+- `scripts/sync-to-codex.sh` deploys skills and mirrors workflows/references into `_kirill-workflow-assets`.
+
+Skills define who does the work.
+Workflows define how the work moves through stages.
+References define quality, evidence, and review standards.
+Runs store execution artifacts for a specific task.
+
 ## Commercialization Strategy Workflow
 
 The commercialization strategy system is a workflow, not a plugin in v1.

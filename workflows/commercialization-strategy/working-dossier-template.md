@@ -121,7 +121,7 @@ Decision:
 Owner: Roman
 Decision:
 
-## 14. Final Strategy Handoff
+## 14. Final Revision Notes
 
 ### Approved Inputs
 

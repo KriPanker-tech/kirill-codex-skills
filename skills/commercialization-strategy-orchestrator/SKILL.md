@@ -29,11 +29,29 @@ When the user asks for a true multi-agent workflow, each specialist stage must b
    - Roman: operating model review
    - Viktor: final strategy draft
    - Roman: board review and red team review
-   - Viktor or Boris: final revision and handoff
+   - Viktor or Boris: final revision notes and final handoff
 6. For every stage, create or update a matching log file in `agent-runs/`.
 7. If Roman returns `needs revision`, route the required fixes back to the responsible specialist and create a revision log.
 8. If Roman returns `blocked`, write the blocker in `Open Questions` and ask the user instead of inventing data.
 9. Produce `final-strategy.md` only after the required stage gates are passed or caveats are explicit.
+
+Use these canonical `working-dossier.md` stage sections:
+
+- `00. Task`
+- `01. Source Map`
+- `02. Context Extract`
+- `03. Portfolio Registry`
+- `04. Portfolio Review`
+- `05. Strategic Gap Diagnostics`
+- `06. Gap Review`
+- `07. Strategic Directions`
+- `08. Directions Review`
+- `09. Operating Model`
+- `10. Operating Model Review`
+- `11. Final Strategy Draft`
+- `12. Board Review`
+- `13. Red Team Review`
+- `14. Final Revision Notes`
 
 ## True Multi-Agent Contract
 

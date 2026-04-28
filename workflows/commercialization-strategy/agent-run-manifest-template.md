@@ -24,7 +24,7 @@ Updated:
 | 10 | Viktor | Board Strategy Writer |  |  | `11. Final Strategy Draft` |  | Roman |
 | 11 | Roman | Board Reviewer |  |  | `12. Board Review` |  | Viktor revision |
 | 12 | Roman | Red Team Reviewer |  |  | `13. Red Team Review` |  | Viktor final |
-| 13 | Viktor | Final Revision |  |  | `final-strategy.md` |  | Done |
+| 13 | Viktor | Final Revision |  |  | `14. Final Revision Notes`, `final-strategy.md` |  | Done |
 
 ## Notes
 

@@ -10,6 +10,44 @@ Human-facing role: Egor.
 
 Use this skill for the first analytical stage of the commercialization strategy workflow: turning source documents into a normalized project registry.
 
+## Workflow Context
+
+This agent is part of:
+
+`workflows/commercialization-strategy/WORKFLOW.md`
+
+Follow:
+
+- `workflows/commercialization-strategy/stage-gates.md`
+- `workflows/commercialization-strategy/agent-run-template.md`
+- `references/commercialization/evidence-rules.md`
+- `references/commercialization/output-standards.md`
+
+If this agent performs a review stage, also follow:
+
+- `references/commercialization/review-criteria.md`
+
+## Context Economy
+
+Read only:
+
+- assigned `working-dossier.md` sections;
+- `02. Context Extract`;
+- prior review notes for the current stage;
+- required reference files.
+
+Do not reopen all source documents by default.
+
+Reopen full source documents only when:
+
+- the stage is blocked without evidence;
+- Roman requested evidence verification;
+- the user explicitly asks for source-level validation;
+- the output would otherwise require inventing facts;
+- a numeric claim needs source verification.
+
+Later stages should use the dossier, context extract, handoff notes, and review decisions instead of rereading all original sources.
+
 ## Input
 
 Read only the relevant dossier sections:
@@ -57,4 +95,16 @@ Separate:
 - expert hypotheses
 - missing data
 
-End with a short handoff for Marina.
+End with this handoff format:
+
+```markdown
+## Handoff
+
+Next owner:
+Next input to read:
+Key conclusions:
+Caveats:
+Missing data:
+Risks:
+Required next action:
+```

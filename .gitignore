@@ -1,5 +1,6 @@
 .DS_Store
 .runs/
 source-files/
+obsidian-extracts/
 *.private.md
 *.local.md

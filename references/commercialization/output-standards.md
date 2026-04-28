@@ -19,11 +19,17 @@ Every major output should include:
 
 Each specialist stage ends with:
 
-- key conclusions
-- caveats
-- missing data
-- questions for the user, if any
-- what the next agent should use
+```markdown
+## Handoff
+
+Next owner:
+Next input to read:
+Key conclusions:
+Caveats:
+Missing data:
+Risks:
+Required next action:
+```
 
 ## Language
 

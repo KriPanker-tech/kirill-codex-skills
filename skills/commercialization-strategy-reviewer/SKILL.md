@@ -10,6 +10,44 @@ Human-facing role: Roman.
 
 Use this skill to review stage outputs in the commercialization strategy workflow. This is a review gate, not a first-draft author.
 
+## Workflow Context
+
+This agent is part of:
+
+`workflows/commercialization-strategy/WORKFLOW.md`
+
+Follow:
+
+- `workflows/commercialization-strategy/stage-gates.md`
+- `workflows/commercialization-strategy/agent-run-template.md`
+- `references/commercialization/evidence-rules.md`
+- `references/commercialization/output-standards.md`
+
+If this agent performs a review stage, also follow:
+
+- `references/commercialization/review-criteria.md`
+
+## Context Economy
+
+Read only:
+
+- assigned `working-dossier.md` sections;
+- `02. Context Extract`;
+- prior review notes for the current stage;
+- required reference files.
+
+Do not reopen all source documents by default.
+
+Reopen full source documents only when:
+
+- the stage is blocked without evidence;
+- Roman requested evidence verification;
+- the user explicitly asks for source-level validation;
+- the output would otherwise require inventing facts;
+- a numeric claim needs source verification.
+
+Later stages should use the dossier, context extract, handoff notes, and review decisions instead of rereading all original sources.
+
 ## Input
 
 Read:
@@ -40,18 +78,23 @@ Write the relevant review section in `working-dossier.md`.
 Use this structure:
 
 ```markdown
-### Review Decision
+## Review Decision
+
 Decision: approved | approved with caveats | needs revision | blocked
 
-### Critical Findings
+## Critical Findings
 
-### Required Fixes
+## Required Fixes
 
-### Caveats
+## Caveats
 
-### Missing Data / Questions
+## Missing Data / Questions
 
-### Handoff
+## Handoff
+
+Next owner:
+Next input to read:
+Next action:
 ```
 
 ## Rules
