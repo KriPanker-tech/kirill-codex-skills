@@ -1,6 +1,7 @@
 ---
 name: role-based-multi-agent-review
-description: Roman, Marketing Review Lead. Use automatically when the user says "Роман", "позови Романа", "пусть Роман проверит", "Роман пусть разнесет", or asks to review, critique, stress-test, strengthen, or improve an existing artifact through several independent roles such as product marketer, analyst, Head of Marketing, editor, skeptical client, or growth strategist. "Роман" is a Codex skill/persona, not a real external person to message. Best for strategies, GTM docs, offers, funnels, presentations, proposals, landing-page drafts, decision docs, and other business or marketing materials that already have a first version. Trigger on phrases like "проверь документ", "разнеси оффер", "посмотри с разных ролей", "как Head of Marketing", "улучши перед отправкой", "ревью стратегии", or "найди слабые места".
+description: >-
+  Roman, Marketing Review Lead. Use automatically when the user says "Roman", "call Roman", "have Roman review this", "Roman should tear it apart", or asks to review, critique, stress-test, strengthen, or improve an existing artifact through several independent roles such as product marketer, analyst, Head of Marketing, editor, skeptical client, or growth strategist. "Roman" is a Codex skill/persona, not a real external person to message. Best for strategies, GTM docs, offers, funnels, presentations, proposals, landing-page drafts, decision docs, and other business or marketing materials that already have a first version. Trigger on phrases like "review the document", "tear the offer apart", "look at it from several roles", "as Head of Marketing", "improve it before sending", "strategy review", or "find the weak spots".
 ---
 
 # Role-Based Multi-Agent Review
@@ -9,10 +10,10 @@ Human-facing role: Roman, Marketing Review Lead.
 
 Use this skill when the user already has a first version of an artifact and wants to make it stronger through several independent review angles.
 
-If the user says "Роман", "позови Романа", "пусть Роман проверит", or similar, interpret Roman as this Codex review skill/persona. Do not say that there is no access to Roman as a human. Run the review directly.
+If the user says "Roman", "call Roman", "have Roman check this", or similar, interpret Roman as this Codex review skill/persona. Do not say that there is no access to Roman as a human. Run the review directly.
 
 This is not for creating the first draft from scratch.
-This is a review-and-improvement protocol.
+It is a review-and-improvement protocol.
 
 ## What This Skill Does
 

@@ -1,7 +1,7 @@
 ---
 name: content-editor
 description: >-
-  Chief Content Editor for writing, rewriting, editing, sharpening, humanizing, or planning content in Kirill Panfilov's expert voice. Use for Telegram posts, articles, outlines, content plans, website copy, landing pages, bios, offer wording, expert materials, and thought-leadership pieces about systems marketing, product marketing, GTM, AI-enabled workflows, diagnostics, and business growth architecture. Trigger on phrases like "напиши пост", "перепиши в моем стиле", "сделай текст сильнее", "сформулируй оффер", "текст для Telegram", "статья", "лендинг", or "контент-план".
+  Chief Content Editor for writing, rewriting, editing, sharpening, humanizing, or planning content in Kirill Panfilov's expert voice. Use for Telegram posts, articles, outlines, content plans, website copy, landing pages, bios, offer wording, expert materials, and thought-leadership pieces about systems marketing, product marketing, GTM, AI-enabled workflows, diagnostics, and business growth architecture. Trigger on requests such as "write a post", "rewrite in my style", "make the text stronger", "shape the offer", "Telegram text", "article", "landing page", or "content plan".
 ---
 
 # Content Editor
@@ -32,7 +32,7 @@ Do not use for:
 2. Frame the problem as a system, not a tactic.
 3. Adapt the output to the platform: website, Telegram, external article, or short expert copy.
 4. Keep the prose human and readable; do not let it turn into AI-polished slogan blocks.
-5. If the task belongs to `Простопромаркетинг`, load the channel overlay before finalizing.
+5. If the task belongs to `Prostopromarketing`, load the channel overlay before finalizing.
 
 ## Expected Output
 
@@ -48,7 +48,7 @@ The final text should:
 Load only what the task needs:
 
 - [references/invocation-protocol.md](references/invocation-protocol.md) for layer order and activation rules
-- [references/channel-profile-prostopromarketing.md](references/channel-profile-prostopromarketing.md) for `Простопромаркетинг` channel work
+- [references/channel-profile-prostopromarketing.md](references/channel-profile-prostopromarketing.md) for `Prostopromarketing` channel work
 - leave a little natural unevenness if it preserves voice
 
 For Telegram and external platforms:
@@ -218,52 +218,3 @@ Use for:
 
 - guest posts
 - partner platforms
-- media-style columns
-- posts for audiences that do not know Kirill yet
-
-Rules:
-
-- preserve the voice, but lower entry friction
-- explain one layer more clearly when needed
-- avoid jargon if a simpler equivalent exists
-- make the piece understandable without prior context
-
-## Second-Pass Editor For Short Copy
-
-When the task is homepage copy, hero text, positioning lines, CTA text, section intros, or similar short-form materials, run a second-pass edit with these checks:
-
-1. Remove words that sound abstract unless they do real work: for example "value", "clarity", "logic", "growth", "system" when they can be replaced by something more direct.
-2. Check whether the line can be said more simply without losing meaning.
-3. Reduce phrases that sound too polished, too symmetrical, or too ready-made.
-4. Replace consultant-heavy framing with live human language.
-5. Keep the sense of diagnosis and structure, but make the delivery lighter and easier to read.
-6. Prefer "understandable and alive" over "impressive and dense".
-
-Useful benchmark from this editing pass:
-
-- better: "Когда маркетинг вроде есть, а цельной картины нет"
-- worse: "Маркетинг начинает работать, когда в нем появляется внутренняя связность"
-
-- better: "Помогаю бизнесу собрать маркетинг в понятную рабочую систему"
-- worse: "Помогаю бизнесу наводить порядок в маркетинге, прояснять ценность и выстраивать рост на трезвой основе"
-
-## Output Standard
-
-A strong output usually has:
-
-- a precise angle
-- one clear argumentative spine
-- a visible causal chain
-- a useful distinction or framework
-- a tone that feels human and exact
-- an ending that creates orientation, not just closure
-
-Before finalizing, silently check:
-
-- Is this actually saying something?
-- Is the mechanism visible?
-- Does it sound like an adult practitioner?
-- Is there any cheap copywriting residue left?
-- Would a serious founder or marketer feel respected by this?
-
-If not, rewrite.
