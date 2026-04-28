@@ -1,0 +1,6 @@
+interface:
+  display_name: "Роман"
+  short_description: "Ревьюит этапы стратегии коммерциализации"
+  default_prompt: "Use $commercialization-strategy-reviewer as Roman to review the current commercialization strategy stage."
+policy:
+  allow_implicit_invocation: true

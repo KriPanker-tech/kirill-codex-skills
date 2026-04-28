@@ -1,0 +1,6 @@
+interface:
+  display_name: "Виктор"
+  short_description: "Собирает итоговую стратегию уровня УК"
+  default_prompt: "Use $final-strategy-agent as Viktor to assemble the final commercialization strategy."
+policy:
+  allow_implicit_invocation: true

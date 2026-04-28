@@ -1,5 +1,26 @@
 # Routing Matrix
 
+## Boris, Commercialization Strategy Orchestrator
+
+Use `commercialization-strategy-orchestrator` for:
+
+- commercialization center strategy
+- R&D commercialization strategy
+- portfolio commercialization strategy
+- small-tonnage chemistry commercial contour
+- Business Case Factory / Market-back R&D operating logic
+- end-to-end strategy workflow with stage gates, reviews, revisions, and a shared dossier
+
+Common user wording:
+
+- "стратегия центра коммерциализации"
+- "центр коммерциализации"
+- "коммерциализация R&D"
+- "портфель коммерциализации"
+- "малотоннажная химия"
+- "Business Case Factory"
+- "запусти workflow по стратегии коммерциализации"
+
 ## Chief Content Editor
 
 Use `content-editor` for:

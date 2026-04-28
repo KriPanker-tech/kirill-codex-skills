@@ -1,0 +1,6 @@
+interface:
+  display_name: "Егор"
+  short_description: "Собирает и нормализует реестр проектов"
+  default_prompt: "Use $portfolio-registry-agent as Egor to create the portfolio registry."
+policy:
+  allow_implicit_invocation: true

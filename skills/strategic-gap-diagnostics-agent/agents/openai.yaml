@@ -1,0 +1,6 @@
+interface:
+  display_name: "Марина"
+  short_description: "Диагностирует стратегический разрыв"
+  default_prompt: "Use $strategic-gap-diagnostics-agent as Marina to diagnose the strategic gap."
+policy:
+  allow_implicit_invocation: true

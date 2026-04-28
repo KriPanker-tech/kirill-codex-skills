@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ольга"
+  short_description: "Собирает operating model, stage-gate и RACI"
+  default_prompt: "Use $operating-model-agent as Olga to design the operating model."
+policy:
+  allow_implicit_invocation: true
